@@ -1,0 +1,43 @@
+body {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #eff0f1;
+}
+
+canvas {
+    position: absolute;
+}
+
+.paint-region {
+    background-color: white;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.tools-group {
+    display: inline-flex;
+    margin-top: 20px;
+}
+
+#loading-overlay {
+    z-index: 1000;
+    position: absolute;
+    top: 0;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    display: none;
+    text-align: center;
+}
+
+#spinner-loading {
+    z-index: 1000;
+    position: absolute;
+    top: 40%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
